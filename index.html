@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> -->
+</head>
+
+<body class="bg-main md:bg-[#2B1821]">
+    <header class="text-white fixed top-0 right-0 left-0 md:py-1 transition-all duration-300 items-center">
+        <nav class="max-w-7xl mx-auto bg-[#2B1821] md:bg-transparent p-5">
+            <div class="flex items-center justify-between">
+                <a href="./" class="md:text-main font-bold text-3xl flex items-center gap-3 md:hover:text-indigo-500">ENIOLAMIDE</a>
+                <!-- large screen menu -->
+                <div class="hidden md:flex space-x-10">
+                    <a href="#home"
+                        class="text-primary md:text-indigo-500 text-lg hover:text-white font-semibold">Home</a>
+                    <a href="#projects" class="text-lg hover:text-primary font-semibold">Projects</a>
+                    <a href="#resume" class="text-lg hover:text-primary font-semibold">Resume</a>
+                </div>
+                <!-- mobile  screen menu-btn-->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white text-3xl">
+                        <i class="bx bx-menu"></i>
+                    </button>
+                </div>
+                <!-- mobile menu -->
+                <!-- <div id="mobile-menu" class="md:hidden">
+                    <a href="#home" class="md:text-primary text-main hover:text-white text-lg block font-semibold">Home</a>
+                    <a href="#projects" class=" hover:text-main text-lg block font-semibold">Projects</a>
+                    <a href="#resume" class="hover:text-main text-lg block font-semibold">Resume</a>
+                  </div> -->
+            </div>
+            <div id="mobile-menu" class="md:hidden gap-5">
+                <a href="#home" class="md:text-primary text-main hover:text-white text-lg block font-semibold">Home</a>
+                <a href="#projects" class=" hover:text-main text-lg block font-semibold">Projects</a>
+                <a href="#resume" class="hover:text-main text-lg block font-semibold">Resume</a>
+            </div>
+        </nav>
+    </header>
+    <section class="max-w-7xl mx-auto px-5 my-12 py-[5rem] md:pt-[10rem] ">
+        <div class="py-10  text-[#2B1821] md:text-white flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="md:w-11/12">
+                <p class="text-indigo-500 md:text-indigo-500 flex font-inter md:text-3xl text-xl font-medium mb-4 text-justify">Hello,<span class="hidden md:block">👋</span>
+                    <span>I'm</span></p>
+                <h1 class="text-4xl font-bold tracking-[3.22px] mb-5 font-inter">Eniola Ogunyemi</h1>
+                <p class="font-Montserrat  text-2xl mb-5 md:leading-loose">Freelance Writer | 📝 Content Creator | 🌐 Data Anotator| I provide quality Writing services and
+                    Virtual assistance to brands.</p>
+                <p class="text-xl mb-12 md:w-3/4 text-justify leading-8">I am a passionate advocate for education ​and AI. With a B.Sc degree in Biochemistry, ​I have always aspired to stay at the ​forefront of technological advancements.
+                </p>
+                <button class="py-4 px-10 rounded-md md:bg-main text-main hover:bg-primary
+                 md:text-primary font-bold md:hover:text-main md:hover:bg-primary bg-[#2B1821]">Let's Connect</button>
+                <div class="mt-12 mb-8 flex gap-4 items-center">
+                    <p class="font-inter font-medium text-xl">Check out my:</p>
+                    <div class="flex space-x-3">
+                        <a href="#"><i class='bx bxl-instagram text-3xl text-pink-900'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin-square text-3xl text-[#0078D7]'></i></a>
+                        <!-- <a href="#"><i class='bx bxl-upwork text-3xl text-[#6FDA44]'></i></a> -->
+                        <a href="#"><i class='bx bxl-facebook-square text-blue-600 text-3xl'></i></i></a>
+                        <a href="#"><i class='bx bxl-twitter text-3xl text-blue-400'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="img/Eniolamide.jfif" alt="" class="w-full  rounded-full hidden md:block shadow-lg shadow-black">
+                <img src="img/Eniolamide - Copy.jfif" alt="" class="w-full md:rounded-lg rounded-full md:hidden">
+            </div>
+        </div>
+    </section>
+    <section class="max-w-7xl mx-auto px-5 my-6 text-white">
+        <div class="text-center">
+            <p class="text-4xl font-Montserrat mb-5  font-bold md:text-white text-[#2B1821]">My Services</p>
+            <h3 class="md:text-main text-[#2B1821] text-3xl font-medium font-inter mb-16">What I Do</h3>
+        </div>
+        <div class="my-16 flex flex-col md:flex-row justify-around items-center gap-12 text-lg">
+            <div class="w-[354px] text-[#2B1821] md:text-white px-5 py-8 rounded-lg border-main  shadow-primary md:shadow-main shadow-lg  md:shadow-md cursor-pointer">
+                <img src="img/services2.jfif" alt="" class="w-[196px] mb-12 mx-auto rounded-lg">
+                <h5 class="text-center my-5 text-xl">Freelance Writer</h5>
+                <p class="text-justify">I create engaging content for blogs, websites, and more. I work closely with clients to deliver clear, on-brand writing that connects with their audience. 
+                   I bring flexibility and creativity to every project.</p>
+            </div>
+            <div class="w-[354px] text-[#2B1821] md:text-white px-5 py-8 rounded-lg border-main  shadow-primary md:shadow-main shadow-lg  md:shadow-md cursor-pointer">
+                <img src="img/content.jfif" alt="" class="w-[196px] mb-12 mx-auto rounded-lg">
+                <h5 class="text-center my-5 text-xl">Content Creator</h5>
+                <p class="text-justify">I produce engaging content across various platforms, from videos to social media posts. 
+                    I focus on creating value-driven, creative material that connects with audiences and helps brands grow.</p>
+            </div>
+            <div class="w-[354px] text-[#2B1821] md:text-white px-5 py-8 rounded-lg border-main shadow-primary md:shadow-main shadow-lg  md:shadow-md cursor-pointer">
+                <img src="img/annotator.jfif" alt="" class="w-[196px] mb-12 mx-auto rounded-lg">
+                <h5 class="text-center my-5 text-xl">Data Annotator</h5>
+                <p class="text-justify"> I label and organize data to help machine learning models learn and improve. 
+                    I work with text, images, and other data types, ensuring accuracy and consistency to support reliable AI training.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="src/app.js"></script>
+</body>
+
+</html>
