@@ -1685,4 +1685,6 @@ video {
 
   .md\:hover\:text-indigo-400:hover{
     --tw-text-opacity: 1;
-    color: rgb(129 140 248 
+    color: rgb(129 140 248 / var(--tw-text-opacity));
+  }
+}
